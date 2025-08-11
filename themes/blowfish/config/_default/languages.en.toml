@@ -12,7 +12,8 @@ title = "KezoSite"
 
   [params.author]
     name = "KezoDev"
-    image = "img/logo.png"          # cf. étape 2
+#    image = "https://mybuntu.github.io/kezosite/img/logo.png"
+   image = "img/blowfish_logo.png"
 
 
 #disabled = false

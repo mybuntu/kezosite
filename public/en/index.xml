@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blowfish</title>
+    <title>Welcome! on KezoSite</title>
     <link>http://localhost:1313/kezosite/en/</link>
-    <description>Recent content on Blowfish</description>
+    <description>Recent content in Welcome! on KezoSite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>youremail@example.com (KezoDev)</managingEditor>
-    <webMaster>youremail@example.com (KezoDev)</webMaster>
     <copyright>© 2025 KezoDev</copyright>
     <atom:link href="http://localhost:1313/kezosite/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>À propos</title>
+      <link>http://localhost:1313/kezosite/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/kezosite/en/about/</guid>
+      <description>&lt;p&gt;System &amp;amp; Network Administrator, Unix, virtualization, security and much more&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This website is in construction
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/kezosite/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/kezosite/en/contact/</guid>
+      <description>&lt;p&gt;📧 &lt;a
+  href=&#34;mailto:ton.email@example.com&#34;&gt;ton.email@example.com&lt;/a&gt;&lt;br&gt;
+&lt;a
+  href=&#34;https://linkedin.com/in/jules-ouanounou/&#34;
+    target=&#34;_blank&#34;
+  &gt;🔗 linkedin.com/in/jules-ouanounou/&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This website is in construction
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
+    </item>
     
   </channel>
 </rss>

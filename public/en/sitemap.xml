@@ -3,42 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/kezosite/en/about/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/about/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/about/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/en/contact/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/contact/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/contact/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/kezosite/en/</loc>
     <xhtml:link
       rel="alternate"
       hreflang="fr"
-      href="http://localhost:1313/kezosite/"
+      href="http://localhost:1313/kezosite/fr/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/kezosite/en/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/en/categories/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/categories/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/categories/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/en/tags/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/tags/"
     />
   </url>
 </urlset>
