@@ -4,8 +4,8 @@ show_next: false
 show_prev: false
 ---
 
-Admin systèmes & réseaux. Linux, Windows Server, virtualisation, sécurité.
+System & Network Administrator, Unix, virtualization, security and much more
 
 ``` 
-site en cours de construction
+This website is in construction
 ``` 
