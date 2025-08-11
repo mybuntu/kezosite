@@ -1,5 +1,4 @@
 ---
 title: "Bienvenue"
 ---
-Salut, je suis Jules. Ici je publie mes labs/projets (Linux, Windows Server, réseau, etc.).
-MODIFICATIONS
+Salut, je suis Jules. Ici je publie mes labs/projets (Linux, Windows Server, réseau, etc.).MODIFICATIONS
