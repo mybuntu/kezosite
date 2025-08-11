@@ -1,7 +1,10 @@
 baseURL = "https://mybuntu.github.io/kezosite/"
 languageCode = "fr"
 #defaultContentLanguage = "fr"
+#defaultContentLanguageInSubdir = true
+defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
+hasCJKLanguage = false
 title = "KezoSite"
 theme = "blowfish"
 
