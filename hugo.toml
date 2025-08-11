@@ -19,3 +19,6 @@ theme = "blowfish"
   name = "Contact"
   url = "/contact/"
   weight = 3
+
+  [params]
+  showNextPrev = false
