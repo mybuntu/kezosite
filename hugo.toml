@@ -18,19 +18,39 @@ theme = "blowfish"
     languageName = "English"
     weight = 2
     contentDir = "content/en"
+# Menus FR
+[languages.fr.menu]
 
-[menu]
-  [[menu.main]]
+  [[languages.fr.menu.main]]
   name = "Accueil"
-  url = "/"
+  pageRef = "/"          # racine FR
   weight = 1
 
-  [[menu.main]]
+  [[languages.fr.menu.main]]
   name = "À propos"
-  url = "/about/"
+  pageRef = "about"      # content/fr/about.md
   weight = 2
 
-  [[menu.main]]
+  [[languages.fr.menu.main]]
   name = "Contact"
-  url = "/contact/"
+  pageRef = "contact"    # content/fr/contact.md
+  weight = 3
+
+
+# Menus EN
+[languages.en.menu]
+
+  [[languages.en.menu.main]]
+  name = "Home"
+  pageRef = "/"          # racine EN
+  weight = 1
+
+  [[languages.en.menu.main]]
+  name = "About"
+  pageRef = "about"      # content/en/about.md
+  weight = 2
+
+  [[languages.en.menu.main]]
+  name = "Contact"
+  pageRef = "contact"    # content/en/contact.md
   weight = 3
