@@ -2,7 +2,7 @@
 title: "Contact"
 ---
 📧 ton.email@example.com  
-🔗 https://www.linkedin.com/in/tonprofil
+🔗 linkedin.com/in/jules-ouanounou
 
 
 ``` 
