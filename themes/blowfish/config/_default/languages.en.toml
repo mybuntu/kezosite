@@ -12,7 +12,11 @@ title = "KezoSite"
 
   [params.author]
     name = "KezoDev"
-    image = "img/blowfish_logo.png"
+    image = "https://media.licdn.com/dms/image/v2/D4E03AQG2j0xUZ87vEA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718619532546?e=1757548800&v=beta&t=h0KxJ--7QKi2NsdaazZPsGAaBAEKKOp0SOPPIwXAz6w"
+
+  links = [
+    { linkedin = "https://linkedin.com/in/jules-ouanounou/" },
+  ]
 
 
 #disabled = false
