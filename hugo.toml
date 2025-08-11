@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://mybuntu.github.io/kezosite/"
 languageCode = "fr"
 defaultContentLanguage = "fr"
 title = "KezoSite"
