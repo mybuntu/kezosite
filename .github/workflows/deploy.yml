@@ -24,6 +24,10 @@ jobs:
           fetch-depth: 0
           submodules: false
 
+      # ✅ crée et configure l'environnement "github-pages"
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -31,7 +35,6 @@ jobs:
           extended: true
 
       - name: Build
-        # On force la bonne URL au cas où
         run: hugo --minify -b "https://mybuntu.github.io/kezosite/"
 
       - name: Upload artifact
