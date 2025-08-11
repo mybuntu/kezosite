@@ -1,7 +1,5 @@
 baseURL = "https://mybuntu.github.io/kezosite/"
 languageCode = "fr"
-#defaultContentLanguage = "fr"
-#defaultContentLanguageInSubdir = true
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = false
@@ -18,7 +16,8 @@ theme = "blowfish"
     languageName = "English"
     weight = 2
     contentDir = "content/en"
-# Menus FR
+
+## Menus FR
 [languages.fr.menu]
 
   [[languages.fr.menu.main]]
@@ -36,8 +35,12 @@ theme = "blowfish"
   pageRef = "contact"    # content/fr/contact.md
   weight = 3
 
+  [[languages.fr.menu.main]]
+  name = "Labs & Writeups"
+  pageRef = "#"    # content/en/contact.md
+  weight = 4
 
-# Menus EN
+## Menus EN
 [languages.en.menu]
 
   [[languages.en.menu.main]]
@@ -52,5 +55,10 @@ theme = "blowfish"
 
   [[languages.en.menu.main]]
   name = "Contact"
-  pageRef = "contact"    # content/en/contact.md
+  pageRef = "contact"
   weight = 3
+
+  [[languages.en.menu.main]]
+  name = "Labs & Writeups"
+  pageRef = "#"
+  weight = 4
