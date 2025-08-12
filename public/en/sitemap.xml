@@ -3,6 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/kezosite/en/labs/ctfs/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/ctfs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/ctfs/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/en/labs/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/en/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/kezosite/en/about/</loc>
     <xhtml:link
       rel="alternate"
@@ -26,32 +68,6 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/kezosite/en/contact/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/en/labs/ctfs/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/labs/ctfs/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/labs/ctfs/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/en/labs/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/labs/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/labs/"
     />
   </url>
   <url>
@@ -117,19 +133,6 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/kezosite/en/labs/virtualization/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/en/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/"
     />
   </url>
 </urlset>

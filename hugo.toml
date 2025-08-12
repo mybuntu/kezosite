@@ -6,6 +6,16 @@ hasCJKLanguage = false
 title = "KezoSite"
 theme = "blowfish"
 
+[params.article]
+  showDate = false
+  showReadingTime = false
+  showWordCount = false
+
+[params.list]
+  showDate = false
+  showReadingTime = false
+  showWordCount = false
+
 [languages]
   [languages.fr]
     languageName = "Français"
