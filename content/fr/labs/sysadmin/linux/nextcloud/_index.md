@@ -6,7 +6,8 @@ draft: false
 ---
 {{< imgx src="img/labs/nextcloud/nextcloud_logo.png" alt="Nextcloud" width="160px" align="center" >}}
 ## Objectif
-Mettre en place un serveur Nextcloud fonctionnel sur Ubuntu avec Apache2, PHP et MariaDB.
+Dans ce tuto nous verrons comment mettre en place un serveur Nextcloud local fonctionnel sur Ubuntu avec Apache2, PHP et MariaDB. 
+Dans un autre tuto j'expliquerai comment mettre en place un connecteur Twingate afin de joindre notre cloud privé de manière sécurisée par internet.
 
 ---
 ## Outils utilisé
