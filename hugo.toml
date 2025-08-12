@@ -37,8 +37,39 @@ theme = "blowfish"
 
   [[languages.fr.menu.main]]
   name = "Labs & Writeups"
-  pageRef = "#"    # content/en/contact.md
+  pageRef = "#"   
   weight = 4
+
+  [[languages.fr.menu.main]]
+  identifier = "labs-root"
+  name = "Labs & Writeups"
+  pageRef = "labs"
+  weight = 5
+
+    [[languages.fr.menu.main]]
+    parent = "labs-root"
+    name = "CTF's Writeups"
+    pageRef = "labs/ctfs"
+    weight = 41
+
+    [[languages.fr.menu.main]]
+    parent = "labs-root"
+    name = "Admin Système"
+    pageRef = "labs/sysadmin"
+    weight = 42
+
+    [[languages.fr.menu.main]]
+    parent = "labs-root"
+    name = "Virtualisation"
+    pageRef = "labs/virtualization"
+    weight = 43
+
+    [[languages.fr.menu.main]]
+    parent = "labs-root"
+    name = "Réseau"
+    pageRef = "labs/networking"
+    weight = 44
+
 
 ## Menus EN
 [languages.en.menu]
@@ -62,3 +93,33 @@ theme = "blowfish"
   name = "Labs & Writeups"
   pageRef = "#"
   weight = 4
+
+  [[languages.en.menu.main]]
+  identifier = "labs-root"
+  name = "Labs & Writeups"
+  pageRef = "labs"
+  weight = 5
+
+    [[languages.en.menu.main]]
+    parent = "labs-root"
+    name = "CTF Writeups"
+    pageRef = "labs/ctfs"
+    weight = 41
+
+    [[languages.en.menu.main]]
+    parent = "labs-root"
+    name = "Sys Admin"
+    pageRef = "labs/sysadmin"
+    weight = 42
+
+    [[languages.en.menu.main]]
+    parent = "labs-root"
+    name = "Virtualization"
+    pageRef = "labs/virtualization"
+    weight = 43
+
+    [[languages.en.menu.main]]
+    parent = "labs-root"
+    name = "Networking"
+    pageRef = "labs/networking"
+    weight = 44

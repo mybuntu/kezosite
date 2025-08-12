@@ -16,6 +16,45 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/sysadmin/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/sysadmin/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/sysadmin/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/sysadmin/linux/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/sysadmin/linux/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/sysadmin/linux/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/sysadmin/windows-server/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/sysadmin/windows-server/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/sysadmin/windows-server/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/kezosite/fr/</loc>
     <xhtml:link
       rel="alternate"
@@ -39,6 +78,58 @@
       rel="alternate"
       hreflang="fr"
       href="http://localhost:1313/kezosite/fr/contact/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/ctfs/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/ctfs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/ctfs/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/networking/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/networking/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/networking/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/virtualization/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/virtualization/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/virtualization/"
     />
   </url>
 </urlset>
