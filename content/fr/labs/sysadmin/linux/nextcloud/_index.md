@@ -4,7 +4,7 @@ description: "Guide complet pour déployer un serveur Nextcloud avec Apache, PHP
 date: 2025-08-12
 draft: false
 ---
-
+{{< imgx src="img/labs/nextcloud/nextcloud_logo.png" alt="Nextcloud" width="160px" align="center" >}}
 ## Objectif
 Mettre en place un serveur Nextcloud fonctionnel sur Ubuntu avec Apache2, PHP et MariaDB.
 

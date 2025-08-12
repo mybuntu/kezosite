@@ -1,0 +1,30 @@
+{{/* 
+  Shortcode image simple.
+
+  Paramètres :
+    - src   : chemin depuis /static (ex: "img/labs/nextcloud/logo.png")
+    - alt   : texte alternatif (optionnel)
+    - width : ex "160px" ou "70%" (optionnel)
+    - align : "left" | "center" | "right" (optionnel)
+*/}}
+
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $width := .Get "width" -}}
+{{- $align := .Get "align" -}}
+
+{{- if or (eq $align "center") (eq $align "right") -}}
+  <div style="text-align:{{ $align }};">
+{{- end -}}
+
+<img
+  src="{{ $src | relURL }}"
+  alt="{{ $alt }}"
+  {{- if $width -}} style="max-width:100%;height:auto;width:{{ $width }};" {{- else -}} style="max-width:100%;height:auto;" {{- end -}}
+  loading="lazy"
+  decoding="async"
+/>
+
+{{- if or (eq $align "center") (eq $align "right") -}}
+  </div>
+{{- end -}}
