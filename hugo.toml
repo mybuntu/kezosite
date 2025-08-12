@@ -36,15 +36,10 @@ theme = "blowfish"
   weight = 3
 
   [[languages.fr.menu.main]]
-  name = "Labs & Writeups"
-  pageRef = "#"   
-  weight = 4
-
-  [[languages.fr.menu.main]]
   identifier = "labs-root"
   name = "Labs & Writeups"
   pageRef = "labs"
-  weight = 5
+  weight = 4
 
     [[languages.fr.menu.main]]
     parent = "labs-root"
@@ -90,15 +85,10 @@ theme = "blowfish"
   weight = 3
 
   [[languages.en.menu.main]]
-  name = "Labs & Writeups"
-  pageRef = "#"
-  weight = 4
-
-  [[languages.en.menu.main]]
   identifier = "labs-root"
   name = "Labs & Writeups"
   pageRef = "labs"
-  weight = 5
+  weight = 4
 
     [[languages.en.menu.main]]
     parent = "labs-root"
