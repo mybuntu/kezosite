@@ -3,20 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/kezosite/fr/about/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/about/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/about/"
-    />
-  </url>
-  <url>
     <loc>http://localhost:1313/kezosite/fr/labs/sysadmin/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="en"
@@ -30,6 +18,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/kezosite/fr/labs/sysadmin/linux/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="en"
@@ -39,6 +28,51 @@
       rel="alternate"
       hreflang="fr"
       href="http://localhost:1313/kezosite/fr/labs/sysadmin/linux/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/sysadmin/linux/nextcloud/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/about/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/about/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/about/"
     />
   </url>
   <url>
@@ -52,19 +86,6 @@
       rel="alternate"
       hreflang="fr"
       href="http://localhost:1313/kezosite/fr/labs/sysadmin/windows-server/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/fr/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/"
     />
   </url>
   <url>
@@ -91,19 +112,6 @@
       rel="alternate"
       hreflang="fr"
       href="http://localhost:1313/kezosite/fr/labs/ctfs/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/fr/labs/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/labs/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/labs/"
     />
   </url>
   <url>

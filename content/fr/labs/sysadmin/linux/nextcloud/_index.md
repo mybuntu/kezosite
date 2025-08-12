@@ -1,0 +1,101 @@
+---
+title: "Installation d’un serveur Nextcloud sur Ubuntu"
+description: "Guide complet pour déployer un serveur Nextcloud avec Apache, PHP et MariaDB sur Ubuntu."
+date: 2025-08-12
+draft: false
+---
+
+## Objectif
+Mettre en place un serveur Nextcloud fonctionnel sur Ubuntu avec Apache2, PHP et MariaDB.
+
+---
+## Outils utilisé
+- Un serveur Linux Ubuntu (sur proxmox 8)
+- Nextcloud Server 
+- LAMP (Linux, Apache2, Mysql, PHP)
+
+## Étapes détaillées
+
+### 1. Mise à jour du système 
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+### 2. Téléchargement de la dernière version de Nextcloud
+```bash
+wget https://download.nextcloud.com/server/releases/latest.zip
+```
+## 3. Installation de MariaDB et sécurisation
+```bash
+sudo apt install mariadb-server -y
+sudo mysql_secure_installation
+sudo mariadb
+```
+### 4. Dans MariaDB 
+```sql
+CREATE DATABASE nextcloud;
+GRANT ALL ON nextcloud.* TO 'nextcloudadmin'@'localhost' IDENTIFIED BY 'STRONG_PASSWD!';
+FLUSH PRIVILEGES;
+EXIT;
+```
+### 5. Installation de PHP et modules nécessaires
+```bash 
+sudo apt install php php-apcu php-bcmath php-cli php-common php-curl php-gd php-gmp php-imagick php-intl php-mbstring php-mysql php-zip php-xml -y
+```
+### 6. Activation de modules Apache2
+```bash 
+sudo a2enmod dir env headers mime rewrite ssl
+sudo systemctl reload apache2
+sudo phpenmod bcmath gmp imagick intl
+```
+### 7. Décompression et configuration Nextcloud
+```bash
+sudo apt install unzip
+sudo unzip latest.zip
+sudo chown www-data:www-data -R nextcloud/
+sudo mv nextcloud /var/www
+```
+### 8. Configuration Apache2
+#### 1. Désactivation du site par défaut :
+```bash
+sudo a2dissite 000-default.conf
+sudo systemctl reload apache2
+```
+#### 2. Création du fichier /etc/apache2/sites-available/nextcloud.conf :
+```apache
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/nextcloud/
+    <Directory "/var/www/nextcloud/">
+        Options MultiViews FollowSymlinks
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+    TransferLog /var/log/apache2/nextcloud_access.log
+    ErrorLog /var/log/apache2/nextcloud_error.log
+</VirtualHost>
+```
+#### 3. Activation du site :
+```bash 
+sudo a2ensite nextcloud.conf
+```
+### 9. Configuration PHP
+Dans le fichier : /etc/php/8.1/apache2/php.ini, appliquer les modifications suivantes (Selon les besoins) :
+#### Lignes à Modifier : 
+-	Ligne 409  → max_execution_time = 1500
+-	Ligne 430  → memory_limit = 512M
+-	Ligne 698  → post_max_size & upload_max_filesize = 10000M
+-	Ligne 850  → upload_max_filesize = 10000M
+#### Lignes à décommenter : 
+-   Ligne 968  → date.timezone = Europe/Paris 
+-   Ligne 1767 → opcache.enable=1
+-   Ligne 1773 → opcache.memory_consumption=128M 
+-   Ligne 1776 → opcache.interned_strings_buffer=8
+-   Ligne 1780 → opcache.max_accelerated_files=10000
+-   Ligne 1798 → opcache.revalidate_freq=2
+-   Ligne 1805 → opcache.save_comments=1
+
+### Redémarrage d'Apache2
+```bash
+sudo systemctl restart apache2
+```
