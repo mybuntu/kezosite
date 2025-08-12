@@ -10,9 +10,9 @@ Mettre en place un serveur Nextcloud fonctionnel sur Ubuntu avec Apache2, PHP et
 
 ---
 ## Outils utilisé
-- Un serveur Linux Ubuntu (sur proxmox 8)
-- Nextcloud Server 
+- Un serveur Linux Ubuntu (VM sur proxmox 8)
 - LAMP (Linux, Apache2, Mysql, PHP)
+- Nextcloud Server 
 
 ## Étapes détaillées
 
