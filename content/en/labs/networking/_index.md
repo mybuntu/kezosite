@@ -1,7 +1,8 @@
 ---
-title: "Networking"
+title: "Réseau"
+date: 2025-08-12
 ---
-Networking labs.
+Labs impliquant une mise en application des connaissances le réseau.
 
 ``` 
 This website is in construction

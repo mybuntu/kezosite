@@ -3,6 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/kezosite/fr/</loc>
+    <lastmod>2025-08-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/networking/cisco/</loc>
+    <lastmod>2025-08-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/networking/cisco/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/networking/cisco/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/</loc>
+    <lastmod>2025-08-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/networking/routerdebian/</loc>
+    <lastmod>2025-08-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/networking/routerdebian/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/networking/routerdebian/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/fr/labs/networking/dhcpdebian/</loc>
+    <lastmod>2025-08-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/networking/dhcpdebian/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/networking/dhcpdebian/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/kezosite/fr/labs/sysadmin/</loc>
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,20 +115,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/kezosite/fr/</loc>
-    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/"
-    />
-  </url>
-  <url>
     <loc>http://localhost:1313/kezosite/fr/labs/ctfs/</loc>
     <lastmod>2025-08-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -84,20 +140,6 @@
       rel="alternate"
       hreflang="fr"
       href="http://localhost:1313/kezosite/fr/labs/sysadmin/linux/nextcloud/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/fr/labs/</loc>
-    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/labs/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/labs/"
     />
   </url>
   <url>
