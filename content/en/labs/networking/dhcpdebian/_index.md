@@ -1,6 +1,6 @@
 ---
-title: "Script de deploiement de DHCP sur debian"
-description: "Guide complet pour déployer un DHCP sur debian 12 avec ISC-DHCP-SERVER"
+title: "DHCP-Server on Debian 12 with ISC-DHCP-SERVER"
+description: "Simple script to install, configure and enable a dhcp-server on a Debian Machine"
 date: 2025-08-13
 draft: false
 ---
