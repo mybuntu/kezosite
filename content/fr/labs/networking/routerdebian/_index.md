@@ -1,6 +1,6 @@
 ---
-title: "Script de deploiement de DHCp sur debian"
-description: "Guide complet pour déployer un DHCP sur debian 12."
+title: "Script de deploiement de Routeur sur debian"
+description: "Guide complet pour déployer un Routeur sur debian 12."
 date: 2025-08-13
 draft: false
 ---
