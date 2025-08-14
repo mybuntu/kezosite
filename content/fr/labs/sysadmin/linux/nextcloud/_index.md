@@ -57,12 +57,12 @@ sudo chown www-data:www-data -R nextcloud/
 sudo mv nextcloud /var/www
 ```
 ### 8. Configuration Apache2
-#### 1. Désactivation du site par défaut :
+#### 8.1. Désactivation du site par défaut :
 ```bash
 sudo a2dissite 000-default.conf
 sudo systemctl reload apache2
 ```
-#### 2. Création du fichier /etc/apache2/sites-available/nextcloud.conf :
+#### 8.2. Création du fichier /etc/apache2/sites-available/nextcloud.conf :
 ```apache
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
@@ -77,12 +77,18 @@ sudo systemctl reload apache2
     ErrorLog /var/log/apache2/nextcloud_error.log
 </VirtualHost>
 ```
-#### 3. Activation du site :
+#### 8.3. Activation du site :
 ```bash 
 sudo a2ensite nextcloud.conf
 ```
 ### 9. Configuration PHP
-Dans le fichier : /etc/php/8.1/apache2/php.ini, appliquer les modifications suivantes (Selon les besoins) :
+Dans le fichier : `/etc/php/8.1/apache2/php.ini`, appliquer les modifications suivantes (Selon les besoins) :
+
+Dans ces moments là, il est toujours préférable pour économiser du temps et s'éviter un processus de réinstallation totale, de garder une version de secours du fichier `.ini` par défaut. Pour cela, on execute la commande suivante : 
+```bash
+sudo cp /etc/php/8.1/apache2/php.ini /etc/php/8.1/apache2/php.ini.backedup
+```
+
 #### Lignes à Modifier : 
 - Line 409 → `max_execution_time = 1500`
 - Line 430 → `memory_limit = 512M`

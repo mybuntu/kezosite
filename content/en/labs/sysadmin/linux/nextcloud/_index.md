@@ -67,12 +67,12 @@ sudo mv nextcloud /var/www
 ```
 
 ### 8. Apache2 Configuration
-#### 1. Disable the default site:
+#### 8.1. Disable the default site:
 ```bash
 sudo a2dissite 000-default.conf
 sudo systemctl reload apache2
 ```
-#### 2. Create `/etc/apache2/sites-available/nextcloud.conf`:
+#### 8.2. Create `/etc/apache2/sites-available/nextcloud.conf`:
 ```apache
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
@@ -87,13 +87,18 @@ sudo systemctl reload apache2
     ErrorLog /var/log/apache2/nextcloud_error.log
 </VirtualHost>
 ```
-#### 3. Enable the site:
+#### 8.3. Enable the site:
 ```bash
 sudo a2ensite nextcloud.conf
 ```
 
 ### 9. PHP Configuration
 In the file `/etc/php/8.1/apache2/php.ini`, apply the following changes (according to your needs):
+
+One thing we can do before that is to save the default version of that file in case anything goes sideways. So for that we'll do : 
+```bash
+sudo cp /etc/php/8.1/apache2/php.ini /etc/php/8.1/apache2/php.ini.backedup
+```
 
 #### Lines to modify:
 - Line 409 → `max_execution_time = 1500`
