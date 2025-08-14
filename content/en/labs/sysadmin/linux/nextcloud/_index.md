@@ -114,3 +114,6 @@ In the file `/etc/php/8.1/apache2/php.ini`, apply the following changes (accordi
 ```bash
 sudo systemctl restart apache2
 ```
+
+### Done !
+Once we've restarted the apache services, our Nextcloud server is ready to use.

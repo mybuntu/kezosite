@@ -101,3 +101,5 @@ Dans le fichier : /etc/php/8.1/apache2/php.ini, appliquer les modifications suiv
 ```bash
 sudo systemctl restart apache2
 ```
+### C'est fini
+Après le redémarrage des services Apache le serveur est en place et prêt à l'emploi. 
