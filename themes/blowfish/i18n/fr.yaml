@@ -42,7 +42,7 @@ footer:
 
 list:
   externalurl_title: "Lien d'article externe."
-  no_articles: "Il n'y a pas encore d'article ici."
+  # no_articles: "Il n'y a pas encore d'article ici."
 
 nav:
   scroll_to_top_title: "Faire défiler jusqu'au bas de la page"
