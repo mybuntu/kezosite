@@ -4,7 +4,7 @@ show_next: false
 show_prev: false
 ---
 
-📧 ton.email@example.com  
+📧 notReady@yet.butsoon  
 [🔗 linkedin.com/in/jules-ouanounou/](https://linkedin.com/in/jules-ouanounou/)
 
 
