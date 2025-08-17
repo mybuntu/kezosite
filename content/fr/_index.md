@@ -13,7 +13,7 @@ Passionné par l’administration systèmes & réseaux, je partage ici mes labs,
 - Réseaux & Virtualisation (Proxmox, VMware)
 - Automatisation & Scripting (Bash, Python)
 
-📄 [Télécharger mon CV (PDF)](/cv/cv_fr.pdf)
+<!-- 📄 [Télécharger mon CV (PDF)](cv/cv_fr.pdf) -->
 ``` 
 site en cours de construction
 ``` 

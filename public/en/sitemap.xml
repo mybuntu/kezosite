@@ -31,20 +31,6 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/kezosite/en/labs/</loc>
-    <lastmod>2025-08-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/labs/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/labs/"
-    />
-  </url>
-  <url>
     <loc>http://localhost:1313/kezosite/en/labs/networking/routerdebian/</loc>
     <lastmod>2025-08-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -129,6 +115,20 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/kezosite/en/labs/</loc>
+    <lastmod>2025-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/kezosite/en/labs/sysadmin/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -140,6 +140,34 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/kezosite/en/labs/sysadmin/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/en/labs/sysadmin/windows-server/</loc>
+    <lastmod>2025-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/sysadmin/windows-server/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/sysadmin/windows-server/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/kezosite/en/labs/virtualization/</loc>
+    <lastmod>2025-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="http://localhost:1313/kezosite/fr/labs/virtualization/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/kezosite/en/labs/virtualization/"
     />
   </url>
   <url>
@@ -166,32 +194,6 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/kezosite/en/contact/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/en/labs/sysadmin/windows-server/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/labs/sysadmin/windows-server/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/labs/sysadmin/windows-server/"
-    />
-  </url>
-  <url>
-    <loc>http://localhost:1313/kezosite/en/labs/virtualization/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="http://localhost:1313/kezosite/fr/labs/virtualization/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="http://localhost:1313/kezosite/en/labs/virtualization/"
     />
   </url>
 </urlset>
