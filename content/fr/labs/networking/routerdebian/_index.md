@@ -82,7 +82,7 @@ sudo nft list ruleset
 - Elles pourront sortir vers internet via l’interface WAN du routeur Debian.
 
 ## Pour tester : 
-SCREENSHOTS POC - Création d'une VM sur le réseau `vmbr1` a addresser manuellement 
+`SCREENSHOTS POC` - Création d'une VM sur le réseau `vmbr1` a addresser manuellement 
   Exemple en fonction des configs précedente :  
 ```bash
 auto ens18
