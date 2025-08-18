@@ -101,7 +101,7 @@ ping google.com
 ```
 #### Si tout a bien été configuré, les deux pings devraient être concluants. ✅
 `SCREENSHOTS POC`
-# BONUS
+## BONUS
 ### Script de déploiement simplifié
 ```bash
 #!/bin/bash

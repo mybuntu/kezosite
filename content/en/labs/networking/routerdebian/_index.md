@@ -100,7 +100,7 @@ ping google.com
 ```
 #### If everything is configured correctly, both pings should succeed. ✅
 `SCREENSHOTS POC`
-# BONUS
+## BONUS
 ###  Deployment script
 Here is a simple Bash script to automate the router setup:
 ```bash
