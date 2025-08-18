@@ -11,7 +11,7 @@ title = "KezoSite"
   dateFormat = "2 January 2006"
 
   [params.author]
-    name = "KezoDev"
+    name = "Jules O"
     image = "img/img1.jpg"
     
   links = [
