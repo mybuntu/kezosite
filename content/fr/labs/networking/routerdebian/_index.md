@@ -43,7 +43,7 @@ iface ens19 inet static
     address 10.10.0.1/16
 ```
 ## Étape 3 -  Configuration de nftables
-  📝 Editer le fichier `/etc/nftables.conf` :
+#### 📝 Editer le fichier `/etc/nftables.conf` :
 ```bash
 #!/usr/sbin/nft -f
 flush ruleset
@@ -65,14 +65,14 @@ table nat-pat {
 - masquerade : remplace l’IP source interne par l’IP publique de la machine routeur (NAT).
 
 ## Étape 4 - Activation et redémarrage des services
-  ✅ Appliquer la configuration :
+#### ✅ Appliquer la configuration :
 ```bash
 sudo systemctl restart networking
 sudo systemctl restart nftables
 sudo systemctl enable nftables
 ```
 
-👀 Vérifier l’état :
+#### 👀 Vérifier l’état :
 ```bash
 sudo nft list ruleset
 ```
@@ -82,7 +82,7 @@ sudo nft list ruleset
 - Elles pourront sortir vers internet via l’interface WAN du routeur Debian.
 
 ## Pour tester : 
-`SCREENSHOTS POC` - Création d'une VM sur le réseau `vmbr1` a addresser manuellement 
+- Création d'une VM sur le réseau `vmbr1` a addresser manuellement 
   Exemple en fonction des configs précedente :  
 ```bash
 auto ens18
@@ -99,8 +99,8 @@ ping 8.8.8.8
 ```bash
 ping google.com
 ```
-#### Si tout a bien été configuré, les deux pings devraient être concluants. 
-
+#### Si tout a bien été configuré, les deux pings devraient être concluants. ✅
+`SCREENSHOTS POC`
 # BONUS
 ### Script de déploiement simplifié
 ```bash
