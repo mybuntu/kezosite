@@ -44,10 +44,8 @@ iface ens19 inet static
 ```
 ## Étape 3 -  Configuration de nftables
   📝 Editer le fichier `/etc/nftables.conf` :
-
 ```bash
 #!/usr/sbin/nft -f
-
 flush ruleset
 
 table nat-pat {
